@@ -4,6 +4,7 @@ body {
     background-color: #6d7c2a;
 }
 
+
 .heading {
     color: #232905;
     padding: 20px;
@@ -15,6 +16,23 @@ body {
     background-color: #9db62e;
 }
 
+.recipe-name {
+    text-align: center;
+    color: #cbe653;
+    text-decoration: underline 5px;
+}
+
+.description {
+    color: #232905;
+    text-align: center;
+    background-color: #667422;
+    width: fit-content;
+    padding: 0px 20px 0px 20px;
+    border-radius: 20px;
+    margin: auto;
+
+}
+
 .content {
     color: #cbe653;
     text-align: center;
@@ -23,6 +41,15 @@ body {
     margin: auto;
     width: fit-content;
     padding: 0px 20px 0px 20px;
+}
+
+.text-content {
+    color: #232905;
+    background-color: #91a538;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    padding-left: 40px;
 }
 
 /* LINKS  */
@@ -37,6 +64,10 @@ a:hover {
     color: #a9cc0b;
 }
 
+a:visited {
+    color: #232905;
+}
+
 /* BLINKIES  */
 
 .blinkies {
@@ -47,4 +78,10 @@ a:hover {
     outline-color: #4b5518;
     width: fit-content;
     margin: auto;
+}
+
+
+.homepage {
+    margin: auto;
+    text-align: center;
 }
